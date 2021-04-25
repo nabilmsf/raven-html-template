@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raven</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="flex">
+        <a href="index.html" class="logo flex">
+          <img src="images/logo.svg" alt="" />
+          <div class="logo-name">Raven</div>
+        </a>
+
+        <!-- NAVBAR -->
+        <nav class="navbar">
+          <ul class="flex links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li class="search-li">
+              <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search" />
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+            </li>
+            <li>
+              <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HEAD -->
+
+    <div class="shop-head bg-background">
+      <div class="container grid">
+        <div>
+          <h1 class="xl">Shop</h1>
+          <p class="lead">Find your best style.</p>
+        </div>
+        <i class="fa fa-shopping-bag fa-10x"></i>
+      </div>
+    </div>
+
+    <!-- MAIN -->
+
+    <section class="shop-main my-4">
+      <div class="container grid">
+        <div class="dropdown">
+          <div class="card border-rad-0 bg-light p-3">
+            <h3 class="my-2 dropbtn">Category<i class="fa fa-caret-down"></i></h3>
+            <div class="dropdown-content">
+              <nav>
+                <ul>
+                  <li>
+                    <input type="checkbox" id="suit" /><label for="suit"
+                      >Suit</label
+                    >
+                  </li>
+                  <li>
+                    <input type="checkbox" id="pants" /><label for="pants"
+                      >Pants</label
+                    >
+                  </li>
+                  <li>
+                    <input type="checkbox" id="watch" /><label for="watch"
+                      >Watch</label
+                    >
+                  </li>
+                  <li>
+                    <input type="checkbox" id="jacket" /><label for="jacket"
+                      >Jacket</label
+                    >
+                  </li>
+                  <li>
+                    <input type="checkbox" id="shoe" /><label for="shoe"
+                      >Shoe</label
+                    >
+                  </li>
+                </ul>
+              </nav>
+
+              <h3 class="my-2">Type</h3>
+              <nav>
+                <ul>
+                  <li>
+                    <input type="checkbox" id="slim-fit" /><label for="slim-fit"
+                      >Slim Fit</label
+                    >
+                  </li>
+                  <li>
+                    <input type="checkbox" id="slim-fit" /><label for="slim-fit"
+                      >Regular Fit</label
+                    >
+                  </li>
+                  <li>
+                    <input type="checkbox" id="slim-fit" /><label for="slim-fit"
+                      >Skinny Fit</label
+                    >
+                  </li>
+                </ul>
+              </nav>
+
+              <h3 class="my-2">Price</h3>
+              <div class="price-range flex">
+                <input type="number" value="50" min="0" max="9999" />
+                <p>to</p>
+                <input type="number" value="1000" min="0" max="9999" />
+                <input type="range" step="50" value="50" min="0" max="9999" />
+                <input type="range" step="50" value="1000" min="0" max="9999" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex">
+          <div class="card border-rad-0">
+            <a href="" class="flex">
+              <div class="card-top">
+                <img src="images/suit-3.png" alt="" />
+              </div>
+              <div class="card-bottom">
+                <h4>Black Formal Suit</h4>
+                <p>$527.00</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="card border-rad-0">
+            <a href="" class="flex">
+              <div class="card-top">
+                <img src="images/stripe-pants.png" alt="" />
+              </div>
+              <div class="card-bottom">
+                <h4>Blue Stripe Pants</h4>
+                <p>$299.00</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="card border-rad-0">
+            <a href="" class="flex">
+              <div class="card-top">
+                <img src="images/suit-5.png" alt="" />
+              </div>
+              <div class="card-bottom">
+                <h4>Blue Slim Fit Suit</h4>
+                <p>$269.00</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="card border-rad-0">
+            <a href="" class="flex">
+              <div class="card-top">
+                <img src="images/suit-6.png" alt="" />
+              </div>
+              <div class="card-bottom">
+                <h4>Green Slim Fit Suit</h4>
+                <p>$329.00</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="card border-rad-0">
+            <a href="product.html" class="flex">
+              <div class="card-top">
+                <img src="images/suit-1.png" alt="" />
+              </div>
+              <div class="card-bottom">
+                <h4>Blue Plaid Suit</h4>
+                <p>$520.00</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="card border-rad-0">
+            <a href="" class="flex">
+              <div class="card-top">
+                <img src="images/shoe.png" alt="" />
+              </div>
+              <div class="card-bottom">
+                <h4>Classic Shoe</h4>
+                <p>$403.00</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="card border-rad-0">
+            <a href="" class="flex">
+              <div class="card-top">
+                <img src="images/suit-2.png" alt="" />
+              </div>
+              <div class="card-bottom">
+                <h4>Green Suit</h4>
+                <p>$330.00</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="card border-rad-0">
+            <a href="" class="flex">
+              <div class="card-top">
+                <img src="images/watch.png" alt="" />
+              </div>
+              <div class="card-bottom">
+                <h4>Leather Watch</h4>
+                <p>$707.00</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="card border-rad-0">
+            <a href="" class="flex">
+              <div class="card-top">
+                <img src="images/suit-4.png" alt="" />
+              </div>
+              <div class="card-bottom">
+                <h4>Blue Classic Suit</h4>
+                <p>$456.00</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer bg-dark py-5">
+      <div class="container grid grid-3">
+        <div>
+          <h1>Raven</h1>
+          <p>Copyright &copy; 2021</p>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <div class="social">
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="js/index.js"></script>
+    <script src="js/priceRange.js"></script>
+  </body>
+</html>

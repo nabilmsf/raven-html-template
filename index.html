@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raven</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="flex">
+        <a href="index.html" class="logo flex">
+          <img src="images/logo.svg" alt="" />
+          <div class="logo-name">Raven</div>
+        </a>
+
+        <!-- NAVBAR -->
+        <nav class="navbar">
+          <ul class="flex links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li class="search-li">
+              <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search" />
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+            </li>
+            <li>
+              <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+
+    <section class="main">
+      <div class="container grid">
+        <div class="main-text">
+          <h1 class="xl">High Quality Clothing</h1>
+          <p>For Half of The Price</p>
+          <a href="#" class="btn">See More</a>
+        </div>
+
+        <div class="main-img card flex">
+          <img class="slides" src="images/suit-1.png" alt="" />
+          <img class="slides" src="images/suit-2.png" alt="" />
+          <img class="slides" src="images/suit-3.png" alt="" />
+          <button class="btn btn-outline display-left" onclick="plusDivs(-1)">
+            &#10094;
+          </button>
+          <button class="btn btn-outline display-right" onclick="plusDivs(1)">
+            &#10095;
+          </button>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATEGORIES -->
+
+    <section class="category my-2 py-2 bg-dark">
+      <div class="container grid">
+        <div class="card flex">
+          <h3 class="xl">All Categories</h3>
+          <img src="images/full-suit.png" alt="" />
+        </div>
+        <div class="card flex">
+          <h3 class="md">Accesories</h3>
+          <img src="images/category-watch.png" alt="" />
+        </div>
+        <div class="card flex">
+          <h3 class="lg">Bottom</h3>
+          <img src="images/category-pants-2.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+
+    <section class="product">
+      <h2 class="md text-center my-2">Our Products</h2>
+      <div class="container flex">
+        <div class="card border-rad-0">
+          <a href="product.html" class="flex">
+            <div class="card-top">
+              <img src="images/suit-1.png" alt="" />
+            </div>
+            <div class="card-bottom">
+              <h4>Blue Checkered Suit</h4>
+              <p>$520.00</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card border-rad-0">
+          <a href="" class="flex">
+            <div class="card-top" >
+              <img src="images/shoe.png" alt="" />
+            </div>
+            <div class="card-bottom">
+              <h4>Classic Shoe</h4>
+              <p>$403.00</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card border-rad-0">
+          <a href="" class="flex">
+            <div class="card-top">
+              <img src="images/suit-2.png" alt="" />
+            </div>
+            <div class="card-bottom">
+              <h4>Green Suit</h4>
+              <p>$330.00</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card border-rad-0">
+          <a href="" class="flex">
+            <div class="card-top">
+              <img src="images/watch.png" alt="" />
+            </div>
+            <div class="card-bottom">
+              <h4>Leather Watch</h4>
+              <p>$707.00</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card border-rad-0">
+          <a href="" class="flex">
+            <div class="card-top">
+              <img src="images/suit-4.png" alt="" />
+            </div>
+            <div class="card-bottom">
+              <h4>Blue Classic Suit</h4>
+              <p>$456.00</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card border-rad-0">
+          <a href="" class="flex">
+            <div class="card-top">
+              <img src="images/suit-3.png" alt="" />
+            </div>
+            <div class="card-bottom">
+              <h4>Black Formal Suit</h4>
+              <p>$527.00</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card border-rad-0">
+          <a href="" class="flex">
+            <div class="card-top">
+              <img src="images/stripe-pants.png" alt="" />
+            </div>
+            <div class="card-bottom">
+              <h4>Blue Stripe Pants</h4>
+              <p>$299.00</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card border-rad-0">
+          <a href="" class="flex">
+            <div class="card-top">
+              <img src="images/suit-5.png" alt="" />
+            </div>
+            <div class="card-bottom">
+              <h4>Blue Slim Fit Suit</h4>
+              <p>$269.00</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card border-rad-0">
+          <a href="" class="flex">
+            <div class="card-top">
+              <img src="images/suit-6.png" alt="" />
+            </div>
+            <div class="card-bottom">
+              <h4>Green Slim Fit Suit</h4>
+              <p>$329.00</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer bg-dark py-5">
+      <div class="container grid grid-3">
+        <div>
+          <h1>Raven</h1>
+          <p>Copyright &copy; 2021</p>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <div class="social">
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
